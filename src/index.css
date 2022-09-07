@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 1170px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 40%;
+  }
+}

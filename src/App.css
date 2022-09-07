@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: .1rem;
+  justify-items: center;  
+}
+
+.card {
+  width: 25rem;
+  border: 0.1rem lightgray solid;
+  border-radius: 1rem;
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
